@@ -36,7 +36,7 @@ This Flask-based application uses computer vision techniques to:
 - pip (Python package manager)
 
 ### Step 1: Clone the Repository
--git clone https://github.com/rivu-intel45/pan-card-authentication-app.git cd snake-game-turtle
+-git clone https://github.com/rivu-intel45/pan-card-authentication-app.git 
 ### Step 2: Install Dependencies
 -pip install -r requirements.txt
 ### Step 3: Run the Application
@@ -57,7 +57,7 @@ The app will start on `http://localhost:5000`
 
 ## 📁 Project Structure
 
-pan-card-detection/
+-pan-card-detection/
 ├── app.py # Main Flask application
 ├── config.py # Configuration settings
 ├── pan_card_detection.py # Core detection logic
