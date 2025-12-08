@@ -36,4 +36,57 @@ This Flask-based application uses computer vision techniques to:
 - pip (Python package manager)
 
 ### Step 1: Clone the Repository
--git clone  cd snake-game-turtle
+-git clone https://github.com/rivu-intel45/pan-card-authentication-app.git cd snake-game-turtle
+### Step 2: Install Dependencies
+-pip install -r requirements.txt
+### Step 3: Run the Application
+
+The app will start on `http://localhost:5000`
+
+---
+
+## 📦 Tech Stack
+
+- **Flask** - Web framework
+- **OpenCV** - Image processing & computer vision
+- **NumPy** - Numerical computations
+- **Pillow** - Image manipulation
+- **Scikit-Image** - Advanced image analysis
+
+---
+
+## 📁 Project Structure
+
+pan-card-detection/
+├── app.py # Main Flask application
+├── config.py # Configuration settings
+├── pan_card_detection.py # Core detection logic
+├── requirements.txt # Python dependencies
+├── templates/ # HTML templates
+├── static/ # CSS, JS, images
+└── README.md # This file
+
+---
+
+## 🔒 Features
+
+✅ **Image Upload & Validation**  
+✅ **Tampering Detection**  
+✅ **Region Highlighting**  
+✅ **Confidence Scoring**  
+✅ **Real-time Processing**  
+✅ **User-friendly Interface**
+
+---
+
+## 🚀 Future Enhancements
+
+- QR code verification integration
+- PAN 2.0 database verification
+
+## 💡 Contributing
+
+Contributions are welcome! Feel free to fork, submit issues, or make pull requests.
+
+---
+Happy verifying! 🎉
